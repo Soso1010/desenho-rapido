@@ -47,6 +47,14 @@ function draw(){
     
     document.getElementById('confidence').innerHTML = 'Precisão: ' + Math.round(results[0].confidence * 100) + '%";
     
+    if(consition){
+      counter++
+    }
+    
+    if(stroke=='black' stroke == 'red'){
+      line(30,40,25,50)
+    }
+    
   
   
   
